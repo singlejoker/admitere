@@ -1,7 +1,13 @@
-.admitere input{
+.textforma input, select{
     padding:10px;
     margin-bottom: 10px;
 }
-.admitere{
+.textforma{
     color:initial;
+}
+.capitol-form{
+    color:gray;
+    border-bottom-style: solid;
+    text-align: left;
+    border-width: 2px;
 }

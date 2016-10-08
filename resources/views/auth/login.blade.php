@@ -5,7 +5,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                    <form class="textforma" class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -47,13 +47,16 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-8 col-md-offset-2">
+                            <div class="col-md-12 col-md-offset-2">
                                 <button type="submit" class="btn btn-primary">
                                     Login
                                 </button>
 
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">
-                                    Forgot Your Password?
+                                    Ai uitat parola?
+                                </a>
+                                <a class="btn btn-link" href="{{ url('/register') }}">
+                                    Nu ai cont?
                                 </a>
                             </div>
                         </div>
