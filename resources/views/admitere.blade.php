@@ -50,14 +50,20 @@
                                 </div> 
                         </div>
                            
-                  <!--  <div class="capitol-form">
+                   <div class="capitol-form" style="width: 100%; float:left;">
                         Datele despre studii
-                    </div> -->
+                    </div> 
                   
                      <div class="form-group">
-                            <label for="inst_abs    " class="col-md-4 control-label">Denumirea și localul instituției absolvite</label>
-                            <div class="col-md-6">
+                            <label for="inst_abs   " class="col-md-4 control-label">Denumirea și localul instituției absolvite</label>
+                            <div class="col-md-6 form-group">
                                 <input id="prenume" type="text" class="form-control" name="prenume" >
+                                  </div>
+                     </div>
+                     <div class="form-group">
+                            <label for="inst_abs   " class="col-md-4 control-label">Anul absolvirii</label>
+                            <div class="col-md-6 form-group">
+                                <input id="an_abs" type="text" class="form-control" name="an_abs" >
                                   </div>
                      </div>
                     </form>
@@ -71,5 +77,4 @@
                          
                 </div>
             </div>
-        </div>
 @endsection
