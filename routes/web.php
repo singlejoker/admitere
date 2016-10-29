@@ -18,6 +18,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/insert', 'CustomerController@index');
+
+Route::get('/show', 'CustomerController@show');
+
+Route::post('/store', 'CustomerController@store');
+
+Route::get('/getPDF', 'PDFController@getPDF');
+
 Route::get('/logout',  function () {
    Session::flush();
    return redirect('/');
@@ -25,3 +34,4 @@ Route::get('/logout',  function () {
 Route::get('/admitere', function () {
     return view('admitere');
 });
+

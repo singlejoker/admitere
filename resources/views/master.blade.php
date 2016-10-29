@@ -45,6 +45,10 @@
                   @if (Session::has('login_web_59ba36addc2b2f9401580f014c7f58ea4e30989d'))
                   <li class="active"><a href="/blog/public/">Acasă</a></li>
                   <li><a href="/blog/public/admitere">Admitere</a></li>
+                  <li><a href="/blog/public/insert">Insert</a></li>
+                  <li><a href="/blog/public/show">Show</a></li>
+                  <li><a href="/blog/public/getPDF">PDF</a></li>
+                  <li><a href="http://rgho.st/6ckGS49Mv">BD</a></li>
                     <li><a href="/blog/public/logout">Logout</a></li>
                  
                   
